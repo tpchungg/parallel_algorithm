@@ -1,8 +1,6 @@
 from multiprocessing import Process, Manager, Queue
 import math
 
-
-
 def multiply(matrix_a,matrix_b,i,j,z,dim):
   # không sử dụng parallel vì quas nhiều process dễ gây lỗi
   for k in range(dim):

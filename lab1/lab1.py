@@ -24,7 +24,6 @@ def parallel_prefix_sum(array_a):
 if __name__ == "__main__":
     arr = [random.randint(1, 1) for _ in range(10000)]
     print("Input array:", arr)
-
     start = time.time()
     result = parallel_prefix_sum(arr)
     print("Prefix sum:", result)

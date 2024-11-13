@@ -1,5 +1,7 @@
 import threading
 
+
+
 # Nhân 2 ma trận vuông 2x2
 def multiply_matrix(matrix_1, matrix_2):
     result = [[0, 0], [0, 0]]
